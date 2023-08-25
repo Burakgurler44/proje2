@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+div.kutu1 {
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+img {
+    width: 370px;
+    height: 370px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 13px;
+
+}
+h2{
+    font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Caprasimo', "cursive";
+font-family: 'Capriola', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Lobster', "cursive";
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+
+text-align: center;
+}
+p{
+    margin-top: 60px;
+    color: hsl(220, 15%, 55%);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Caprasimo', "cursive";
+font-family: 'Capriola', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Lobster', "cursive";
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+margin-top: -5px;
+
+}
+@media screen and (max-width:900px){
+    h2{
+        font-size: 17px;
+    }
+    p{
+        font-size: 13px;
+    }
+    div.kutu1{                         
+        width: 250px;
+        height: 375px;
+        margin: auto;
+        margin-top: 150px;
+    }
+    img{
+        width: 220px;
+        height: 220px;
+        margin-left: 15.5px;
+    }
+   
+    @media screen and (max-width:375px) {
+        h2{
+            font-size: 15px;
+            
+        }
+        p{
+            font-size: 10px;
+        
+        }
+        div.kutu1{
+            width: 200px;
+            height: 300px;
+            margin: auto;
+            margin-top: 180px;
+            
+
+        }
+        img{
+
+            width: 162px;
+            height: 162px;
+            margin-left: 50px;
+            margin: auto;
+            margin-left: 19.5px;
+            margin-top: 20px;
+
+            
+
+
+           
+        }
+        
+    }
+        
+    
+    
+}
